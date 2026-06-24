@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+env/
+
+# Database
+*.db
+*.sqlite3
+
+# Modelo entrenado (se regenera al correr procesar_datos.py)
+backend/modelo/
+
+# Uploads / exports
+backend/uploads/
+backend/exports/
+
+# Node
+node_modules/
+frontend/dist/
+
+# Dataset IMS (demasiado pesado para Git)
+backend/data/IMS/
+*.h5
+*.keras
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
